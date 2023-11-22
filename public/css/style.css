@@ -1,0 +1,31 @@
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header, footer {
+    background-color: rgb(163, 195, 255);
+    padding: 20px;
+}
+
+main {
+    flex-grow: 2;
+}
+
+.index {
+    background-color: rgb(255, 241, 163);
+}
+
+.about {
+    background-color: rgb(173, 226, 87);
+}
+
+.contact {
+    background-color: rgb(225, 222, 253);
+}
+
+.error {
+    background-color: rgb(255, 166, 163);
+}
